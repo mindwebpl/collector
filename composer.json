@@ -11,8 +11,7 @@
     ],
     "require": {
         "mindweb/modifier": "dev-master",
-        "mindweb/forwarder": "dev-master",
-        "symfony/console": "~2.6"
+        "mindweb/forwarder": "dev-master"
     },
     "autoload": {
         "psr-0": {

@@ -1,16 +1,15 @@
 <?php
 namespace Mindweb\Collector;
 
-use Symfony\Component\Console\Output\OutputInterface;
 use Mindweb\Modifier;
 use Mindweb\Forwarder;
 
 interface Collector
 {
     /**
-     * @param OutputInterface $output
+     * @param array $configuration
      */
-    public function __construct(OutputInterface $output);
+    public function __construct(array $configuration);
 
     /**
      * @param Modifier\Collection $modifiers
